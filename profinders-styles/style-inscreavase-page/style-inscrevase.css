@@ -1,0 +1,520 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,  Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background-color: #171717;
+}
+
+#anchor {
+  background-color: black;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  z-index: 100;
+  border-radius: 50px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header {
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  max-width: 1280px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 100%;
+  background-color: white;
+}
+
+#logo {
+  width: 225px;
+  height: auto;
+  cursor: pointer;
+}
+
+.menu {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 130px;
+}
+
+.menu a {
+  cursor: pointer;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .img-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 1280px;
+}
+
+.container .inscrevase-form {
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1280px;
+  width: 1280px;
+  gap: 85px;
+  padding: 147px 0px 105px 0px;
+}
+
+.container .inscrevase-form-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1016px;
+  font-weight: 500;
+  font-size: 31px;
+  letter-spacing: -1px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+
+.container .inscrevase-form-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .inscrevase-form-content form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 18px;
+  max-width: 1016px;
+  width: 1016px;
+  position: relative;
+}
+
+.container .inscrevase-form-content form div {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 947px;
+}
+
+.container .inscrevase-form-content form input {
+  background-color: #ededed;
+  border-radius: 100px;
+  height: 70px;
+  width: 100%;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 29px;
+}
+
+.container .inscrevase-form-content form #inscrevase-nome {
+  padding-left: 130px;
+}
+
+.container .inscrevase-form-content form #inscrevase-email {
+  padding-left: 130px;
+}
+
+.container .inscrevase-form-content form #inscrevase-nascimento {
+  text-align: center;
+  padding-right: 20px;
+}
+
+.container .inscrevase-form-content form #inscrevase-phone {
+  padding-left: 95px;
+}
+
+.container .inscrevase-form-content form #inscrevase-cep {
+  padding-left: 95px;
+}
+
+.container .inscrevase-form-content form #inscrevase-endereco {
+  padding-left: 161px;
+}
+
+.container .inscrevase-form-content form #inscrevase-estado {
+  padding-left: 131px;
+}
+
+.container .inscrevase-form-content form select {
+  background-color: #ededed;
+  border-radius: 100px;
+  width: 947px;
+  height: 70px;
+  padding-left: 45px;
+  font-weight: 500;
+  line-height: 29px;
+  font-size: 25px;
+}
+
+.container .inscrevase-form-content form .inscrevase-mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+
+.container .inscrevase-form-content form .inscrevase-mid div {
+  width: 300px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.container .inscrevase-form-content form .inscrevase-mid .inscrevase-nascimento {
+  width: 230px;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.container .inscrevase-form-content form .inscrevase-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 17px;
+}
+
+.container .inscrevase-form-content form .inscrevase-bottom .inscrevase-endereco {
+  width: 638px;
+}
+
+.container .inscrevase-form-content form .inscrevase-bottom .inscrevase-estado {
+  width: 288px;
+}
+
+.container .inscrevase-form-content form span {
+  position: absolute;
+  margin-left: 40px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.container .inscrevase-form-content form #inscrevase-form-button {
+  position: absolute;
+  right: 0%;
+}
+
+.container .inscrevase-form-content form #inscrevase-form-button input {
+  -ms-flex-item-align: end;
+      align-self: end;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #FF9c00;
+  font-size: 50px;
+  color: white;
+  width: 60px;
+  height: 420px;
+  padding-left: 0px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #171717;
+  position: relative;
+}
+
+.footer .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 150px 0px;
+  gap: 214px;
+  max-width: 1280px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-content::before {
+  content: "";
+  background-color: #FF9c00;
+  height: 40px;
+  width: 824px;
+  position: absolute;
+  top: -20px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  left: 50%;
+  z-index: -1;
+}
+
+.footer .footer-content .form-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 68px;
+}
+
+.footer .footer-content .form-footer .form-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFF;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  position: relative;
+}
+
+.footer .footer-content .form-footer .form-title::before {
+  content: "";
+  background-color: #FF9c00;
+  width: 213px;
+  height: 9px;
+  position: absolute;
+  top: 64px;
+}
+
+.footer .footer-content .form-footer form {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 18px;
+  width: 528px;
+}
+
+.footer .footer-content .form-footer form :focus {
+  background-color: #FF9c00;
+  -webkit-filter: grayscale(0.2);
+          filter: grayscale(0.2);
+  width: 100%;
+  outline: none;
+}
+
+.footer .footer-content .form-footer form :hover {
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
+.footer .footer-content .form-footer form :active {
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.footer .footer-content .form-footer form ::-webkit-input-placeholder {
+  display: -webkit-box;
+  display: flex;
+  position: absolute;
+}
+
+.footer .footer-content .form-footer form :-ms-input-placeholder {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.footer .footer-content .form-footer form ::-ms-input-placeholder {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.footer .footer-content .form-footer form ::placeholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.footer .footer-content .form-footer form #nome-form {
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footer .footer-content .form-footer form #email-form {
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.footer .footer-content .form-footer form #msg-form {
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 20px;
+  height: 147px;
+}
+
+.footer .footer-content .form-footer form #button-form {
+  cursor: pointer;
+  height: 61px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background-color: #FF9c00;
+  color: #FFF;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+}
+
+.footer .footer-content .footer-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 62px;
+}
+
+.footer .footer-content .footer-contact .contact-footer-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 29px;
+  font-size: 25px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+.footer .footer-content .footer-contact .contact-footer-header::before {
+  content: "";
+  background-color: #FF9c00;
+  width: 205px;
+  height: 9px;
+  position: absolute;
+  top: 40px;
+}
+
+.footer .footer-content .footer-contact .footer-contact-details {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  width: 337px;
+}
+
+.footer .footer-content .footer-contact .footer-contact-details .contact-footer-title {
+  color: #FF9c00;
+}
+
+.footer .footer-content .footer-contact .footer-contact-details .contact-footer-description {
+  color: #FFF;
+}
+
+.footer .footer-content .footer-contact .social-medias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 44px;
+  margin-top: 123px;
+}
+
+.footer .footer-content .footer-contact .social-medias img {
+  width: 50px;
+}
+/*# sourceMappingURL=style-inscrevase.css.map */
